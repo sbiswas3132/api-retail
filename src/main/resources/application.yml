@@ -1,0 +1,11 @@
+spring:
+  logging.file: ~logging.path~\\~logging.file~.log  
+  data.mongodb.database: productdb
+  data.mongodb.host: localhost
+  data.mongodb.port: 27017 
+server:
+  port: 8090  
+  tomcat.max-threads: 100
+target: 
+   uri: https://redsky.target.com/v2/pdp/tcin/
+   params: excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics
