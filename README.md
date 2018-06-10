@@ -11,7 +11,7 @@
    - Run mongodb by going to the bin folder of the mongodb installation directory.  
    # In windows 
    ```sh 
-      mongodb --dbpath <your data directory>
+      mongod --dbpath <your data directory>
    ```
    - mongo should be running with default settings on port 27017.
 
