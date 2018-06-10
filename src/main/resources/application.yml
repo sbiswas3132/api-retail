@@ -1,8 +1,6 @@
 spring:
-  logging.file: ~logging.path~\\~logging.file~.log  
-  data.mongodb.database: productdb
-  data.mongodb.host: localhost
-  data.mongodb.port: 27017 
+  logging.file: ~logging.path~\\~logging.file~.log
+  data.mongodb.uri: mongodb://userKN6:aUl7yMrbMfaXnQdS@mongodb/productdb  
 server:
   port: 8090  
   tomcat.max-threads: 100
