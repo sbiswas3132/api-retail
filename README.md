@@ -11,7 +11,8 @@
    - Run mongodb by going to the bin folder of the mongodb installation directory.  
    # In windows 
    ```sh 
-      mongod --dbpath <your data directory>
+      mkdir data
+      mongod --dbpath <data>
    ```
    - mongo should be running with default settings on port 27017.
 
@@ -25,6 +26,10 @@ c:\api-retail> java -jar target/productservice-0.0.1-SNAPSHOT.jar
     
 ## Test
 
+### Generate unit test report. Html report is created under target/site folder
+   ```sh 
+      mvn surefire-report:report
+   ```
 ### Get 
 - Request: http://localhost:8090/api/products/13860428
 - Response :
