@@ -1,6 +1,6 @@
 spring:
   logging.file: ~logging.path~\\~logging.file~.log
-  data.mongodb.uri: mongodb://admin:dhaka2go@172.30.231.205:27017/productdb  
+  data.mongodb.uri: mongodb://user47V:a6KmYKbPRa5kQ7JD@172.30.83.173:27017/productdb  
 server:
   port: 8090  
   tomcat.max-threads: 100
