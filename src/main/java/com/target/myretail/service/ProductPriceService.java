@@ -52,7 +52,7 @@ public class ProductPriceService {
 		
 	}
 	public void load(){
-		MongoOperations mongoOperation = (MongoOperations) new MongoTemplate(new MongoClient("127.0.0.1"),"productdb");
+		MongoOperations mongoOperation = (MongoOperations) new MongoTemplate(new MongoClient("172.30.83.173:27017"),"productdb");
 		
 		Product product1 = new Product(15117729, "USD", (float) 13.49);
 		Product product2 = new Product(16483589, "USD", (float) 14.49);
